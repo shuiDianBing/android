@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toolbar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme.AppBarOverlay">
+    Material Design之 AppbarLayout 开发实践总结 https://www.jianshu.com/p/ac56f11e7ce1
+    Android 5.x Theme 与 ToolBar 实战 http://blog.csdn.net/lmj623565791/article/details/45303349
+    玩转AppBarLayout，更酷炫的顶部栏 https://www.jianshu.com/p/d159f0176576
+    AppCompatActivity与toolbar的结合，封装BaseActivity http://blog.csdn.net/wk843620202/article/details/51851785
+    美化你的APP——从Toolbar开始 http://blog.csdn.net/qq_19431333/article/details/69942332
+    Android ToolBar 使用完全解析 https://www.jianshu.com/p/ae0013a4f71a
+    <!--<android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed"
+        app:popupTheme="@style/AppTheme.PopupOverlay"/>-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:navigationIcon="@mipmap/ic_launcher_round"
+        toolbar:navigationIcon="@mipmap/ic_launcher_round"
+        toolbar:logo="@mipmap/ic_launcher"
+        toolbar:title="title"
+        toolbar:titleTextColor="@android:color/white"
+        toolbar:subtitle="subtitle"
+        toolbar:subtitleTextColor="@android:color/white"
+        toolbar:collapseIcon="@mipmap/ic_launcher_round"
+        toolbar:popupTheme="@style/AppTheme.PopupOverlay" />
+</android.support.design.widget.AppBarLayout>
