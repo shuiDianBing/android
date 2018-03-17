@@ -37,6 +37,12 @@ public class CustomizationActivity extends AppCompatActivity {
         //setStates();
         //setTranslucentStatus(false);
         //concealNavigation();
+        findViewById(R.id.image_goBack).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
     /*
       * android状态栏颜色修改 http://www.cnblogs.com/leon-hm/p/5131323.html

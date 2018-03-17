@@ -27,6 +27,13 @@ android {
         }
     }
     buildToolsVersion '27.0.2'
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    dexOptions {
+        incremental true
+    }
 }
 
 dependencies {
@@ -36,5 +43,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-    implementation 'com.android.support:design:27+'//http://blog.csdn.net/ykqi_/article/details/72477977 导入AppBarLayout
+    implementation 'com.android.support:design:27+'
+    //http://blog.csdn.net/ykqi_/article/details/72477977 导入AppBarLayout
 }

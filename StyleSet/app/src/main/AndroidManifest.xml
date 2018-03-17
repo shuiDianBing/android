@@ -9,13 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/VariationTradition">
-        <activity android:name=".TraditionActivity">
+        <activity android:name=".TraditionActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity>android:launchMode="singleTop"
         <activity android:name=".CustomizationActivity" android:theme="@style/Customization"/>
         <activity android:name=".MenuActivity" android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".VariationActivity" android:theme="@style/AppTheme.NoActionBar"/>
