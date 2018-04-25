@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 /**
  * Created by Administrator on 2018/2/6.
+ * Android 提供的titlebar样试
  */
 
 public class MenuActivity extends AppCompatActivity {

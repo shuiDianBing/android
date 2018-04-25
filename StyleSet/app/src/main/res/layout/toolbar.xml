@@ -22,7 +22,7 @@
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
         android:navigationIcon="@mipmap/ic_launcher_round"
-        toolbar:navigationIcon="@mipmap/ic_launcher_round"
+        toolbar:navigationIcon="@drawable/ic_go_back"
         toolbar:logo="@mipmap/ic_launcher"
         toolbar:title="title"
         toolbar:titleTextColor="@android:color/white"

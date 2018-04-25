@@ -8,6 +8,7 @@ import android.view.MenuItem;
 
 /**
  * Created by Administrator on 2018/2/8.
+ * 修改标题Android 提供的titlebar居中的样试
  */
 
 public class VariationActivity extends AppCompatActivity {

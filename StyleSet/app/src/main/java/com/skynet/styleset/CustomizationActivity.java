@@ -15,6 +15,7 @@ import android.widget.EditText;
 
 /**
  * Created by Administrator on 2018/2/3.
+ * include方式title
  */
 
 public class CustomizationActivity extends AppCompatActivity {
