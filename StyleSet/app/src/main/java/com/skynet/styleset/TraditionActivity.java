@@ -11,6 +11,10 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+/*
+*  默认的标题
+*  教你上传本地代码到github https://blog.csdn.net/hanhailong726188/article/details/46738929
+* */
 public class TraditionActivity extends AppCompatActivity {
 
     // Used to load the 'native-lib' library on application startup.
